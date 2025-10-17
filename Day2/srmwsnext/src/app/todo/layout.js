@@ -1,13 +1,11 @@
 export const metadata = {
-    title: "Todo List - Day 2",
-    description:
-        "A simple todo list application built with search functionality",
+    title: "Todo List",
+    description: "Stuff",
 };
 
-export default function AnotherDemoLayout({ children }) {
+export default function TodoLayout({ children }) {
     return (
-        <div className="min-h-screen bg-gradient-to-br from-blue-50 to to-indigo-100">
-            {/* <h1>INNER BRAND NAME</h1> */}
+        <div className="min-h-screen bg-gradient-to-tl from-blue-300 via-yellow-200 to-red-300">
             {children}
         </div>
     );
